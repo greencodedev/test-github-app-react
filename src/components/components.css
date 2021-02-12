@@ -1,0 +1,40 @@
+.item {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.item a,
+.itm a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.info-title span {
+    color: #444;
+    font-size: 12px;
+}
+
+.info-title a {
+    float: right;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.item-info .main-title {
+    cursor: pointer;
+    max-width: 60%;
+}
+
+.info-title h5,
+.info-title h6 {
+    color: #0366d6;
+}
+
+.info-title .description {
+    font-size: 14px;
+}
+
+.contributor-info .main-title,
+.contributor-info .detail-info {
+    display: flex;
+}

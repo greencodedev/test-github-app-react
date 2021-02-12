@@ -1,0 +1,54 @@
+.page-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center-content {
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.org-name-input button {
+    margin-left: 30px;
+}
+
+.org-info {
+    max-width: 1440px;
+    margin: auto;
+    border: 1px solid #eeeeee;
+}
+
+.org-name {
+    display: flex;
+    justify-content: center;
+}
+
+.org-data {
+    padding: 10px 20px;
+}
+
+.list-content {
+    border: 1px solid #eee;
+    margin-top: 5px;
+    height: calc(100vh - 230px);
+    overflow-y: scroll;
+}
+
+.org-contributors .title {
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-end;
+}
+
+.title span {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main-info {
+    display: flex;
+    justify-content: flex-start;
+}
