@@ -7,7 +7,7 @@ export async function getDataFromAPI(uri) {
         host + uri,
         {
             headers: { 
-                "Authorization": "Bearer a640af9aa839845c6abcb79d2fc8f29f95e79e3b"
+                "Authorization": "Bearer [token]"
             },
         }
     ).then(response => response.data);
