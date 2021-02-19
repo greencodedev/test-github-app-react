@@ -1,4 +1,4 @@
-import * as TYPES from '../constants/actionType.js';
+import * as TYPES from '@constants/actionType.js';
 
 const initialState = {
     gitOrgName: '',
@@ -26,7 +26,6 @@ function reducer(state = initialState, action) {
             };
         }
         case TYPES.SET_REPOSITORIES_ORG: {
-            console.log("repositories =>", action.payload);
             const repositories = action.payload;
             return {
                 ...state,

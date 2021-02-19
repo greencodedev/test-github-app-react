@@ -1,18 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { createStore } from 'redux';
+// import { createStore } from 'redux';
 import { Provider } from 'react-redux';
+// import dotenv from 'dotenv'
 
 import App from './App';
-import reducer from './reducers';
+// import reducer from './reducers';
 import reportWebVitals from './reportWebVitals';
+import store from './store';
 
 import './index.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
-const reduceStore = createStore(reducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+// const reduceStore = createStore(reducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+
+console.log("env =>", process.env);
 ReactDOM.render(
-  <Provider store={reduceStore}>
+  <Provider store={store}>
     <App />
   </Provider>,
   document.getElementById('root')
